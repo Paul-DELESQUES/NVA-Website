@@ -57,8 +57,9 @@
       cursor: pointer;
 
       &:hover {
-        color: #f5f5dc;
-        background: $color-primary;
+        color: $text-primary;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
         transform: scale(1.05);
         transition: all 0.4s ease-in-out;
       }
@@ -72,6 +73,9 @@
       margin-top: 0.8rem;
       &:hover {
         border: none;
+        background: $color-primary;
+        transform: scale(1.05);
+        transition: all 0.4s ease-in-out;
       }
     }
   }
